@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Background
+  - Enemy
+  - Door
+  - Boss
+  - Platform
+  - DeadLine
+  - PlayerAttack
+  - EnemyAttack
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Attack
+  - Ground
+  - Background
+  - Enemy
+  - Boss
+  - DeadLine
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Frount
+    uniqueID: 1151803139
+    locked: 0
+  - name: Background
+    uniqueID: 1090085571
+    locked: 0
