@@ -68,4 +68,9 @@ public class Surround : MonoBehaviour
         distance = dsts;
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        target = other.transform;
+    }
+
 }

@@ -13,6 +13,7 @@ TagManager:
   - DeadLine
   - PlayerAttack
   - EnemyAttack
+  - AttackTarget
   layers:
   - Default
   - TransparentFX
@@ -27,7 +28,7 @@ TagManager:
   - Enemy
   - Boss
   - DeadLine
-  - 
+  - AttarkTarget
   - 
   - 
   - 

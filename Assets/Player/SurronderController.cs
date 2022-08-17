@@ -14,6 +14,7 @@ public class SurronderController : MonoBehaviour
     public GameObject target;
     private bool isScaleChange;
     private Vector3 targetLastLocalScale = Vector3.one;
+    private GameObject surrounderPool;
     void Start()
     {
         

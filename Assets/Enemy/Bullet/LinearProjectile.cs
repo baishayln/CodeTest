@@ -5,13 +5,13 @@ using UnityEngine;
 public class LinearProjectile : ProjectileFather
 {
     private float projectileSpeed;
-    override public void Start()
+    void Start()
     {
         
     }
 
     // Update is called once per frame
-    override public void Update()
+    void Update()
     {
         transform.position += transform.up * Time.deltaTime * projectileSpeed; 
     }
