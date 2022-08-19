@@ -4468,6 +4468,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6434639541677817106, guid: ed992fab2616ede4fb40a829c40b7aa6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434639541677817106, guid: ed992fab2616ede4fb40a829c40b7aa6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5
       objectReference: {fileID: 0}
@@ -4723,6 +4727,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1fd6540c98dcfc49a2b8d356dd14df5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1967817575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967817563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe9d223e486456489c3d2befb7c4acd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 3044037432943845722, guid: 2a3283d528d1be1458f18448a74b2ece, type: 3}
+  target: {fileID: 1182804386}
 --- !u!1 &2008483991
 GameObject:
   m_ObjectHideFlags: 0
