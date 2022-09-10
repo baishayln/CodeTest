@@ -6,6 +6,7 @@ public class BeamAttackSurround : TracerLauncher
 {
     public float shootWaitTime;
     private float shootTimer = 0;
+    public float SeekEnemyDsts;
 
     void Update()
     {
@@ -18,6 +19,13 @@ public class BeamAttackSurround : TracerLauncher
                 fire(transform.position , shootTarget.transform.position);
             }
         }
+        if (shootTarget.transform.position.x - transform.position.x > SeekEnemyDsts || 
+        shootTarget.transform.position.x - transform.position.x < -SeekEnemyDsts || 
+        shootTarget.transform.position.y - transform.position.y > SeekEnemyDsts || 
+        shootTarget.transform.position.y - transform.position.y < -SeekEnemyDsts)
+        {
+            shootTarget = null;
+        }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -25,6 +33,5 @@ public class BeamAttackSurround : TracerLauncher
         {
             shootTarget = other.transform;
         }
-        
     }
 }
